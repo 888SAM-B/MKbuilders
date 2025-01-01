@@ -147,17 +147,19 @@ body{
     margin-top: -50px;
 }
 .pricing{
+    border: 1px solid;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 10px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-bottom: 50px;
 }
 .pri-image img{
     height: 350px;
 }
 .pricing *{
+
     padding: 1PX;
 }
 .pri-content{
@@ -290,6 +292,9 @@ h2{
 @media screen and (max-width:991px) {
     .img-content{
         margin-left: 20px;
+    }
+    .pricing{
+        flex-wrap: wrap;
     }
     .mob{
         display: flex;
